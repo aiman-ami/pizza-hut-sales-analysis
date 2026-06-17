@@ -1,4 +1,4 @@
-Pizza Hut Sales Analysis — SQL
+Pizza Hut Sales Analysis (SQL)
 
 Author: Aiman Ishaq
 Tools: MySQL
@@ -13,10 +13,10 @@ questions about revenue patterns, customer behavior, and product performance.
 
 Dataset Tables
 
-orders — order ID, date, time
-order_details — order ID, pizza ID, quantity
-pizzas — pizza ID, size, price
-pizza_types — pizza type ID, name, category
+orders: order ID, date, time
+order_details: order ID, pizza ID, quantity
+pizzas: pizza ID, size, price
+pizza_types: pizza type ID, name, category
 
 
 Business Questions Answered
@@ -32,21 +32,21 @@ Q7. Which pizza size generates the most revenue?
 
 Key Findings
 
-Peak revenue hour is 12pm — lunch drives more revenue than dinner.
+Peak revenue hour is 12pm lunch drives more revenue than dinner.
 
 Friday is the busiest day while Sunday has the fewest orders.
 
-Chicken has the highest revenue per pizza at $17.73 despite Classic having the highest total revenue — Classic sells more but at lower margins.
+Chicken has the highest revenue per pizza at $17.73 despite Classic having the highest total revenue Classic sells more but at lower margins.
 
-Weekdays generate nearly 3x weekend revenue — $595K vs $222K.
+Weekdays generate nearly 3x weekend revenue  $595K vs $222K.
 
 Large size dominates with $375K in revenue while XXL barely sells at $1K.
 
 
 Files
 
-pizza_hut_SQL.sql — all queries with business context comments
-orders.csv — raw orders data
-order_details.csv — raw order details data
-pizzas.csv — pizza sizes and prices
-pizza_types.csv — pizza names and categories
+pizza_hut_SQL.sql : all queries with business context comments
+orders.csv : raw orders data
+order_details.csv : raw order details data
+pizzas.csv : pizza sizes and prices
+pizza_types.csv : pizza names and categories
